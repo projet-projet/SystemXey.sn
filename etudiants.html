@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Étudiants - SystemXëy.sn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">SystemXëy.sn</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="etudiants.html">Espace Étudiants</a></li>
+                    <li><a href="recruteurs.html">Espace Recruteurs</a></li>
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background-image: url('images/fond1.jpg');">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Découvrez les Talents de Demain</h1>
+                <p>Explorez les profils de nos jeunes diplômés et étudiants en fin de cycle, prêts à apporter de la valeur à votre entreprise.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <input type="text" placeholder="Rechercher par compétence ou domaine..." class="search-input">
+                <select class="filter-select">
+                    <option value="">Tous les domaines</option>
+                    <option value="dev">Développement Web & Mobile</option>
+                    <option value="marketing">Marketing Digital</option>
+                    <option value="data">Data Science</option>
+                    <option value="design">Design UI/UX</option>
+                    <option value="gestion">Gestion de Projet</option>
+                    </select>
+                <button class="btn btn-primary filter-btn">Rechercher</button>
+            </div>
+            <!-- <p class="filter-note">Cette fonctionnalité de recherche est un exemple statique. Pour une version dynamique, une base de données et du code backend seraient nécessaires.</p> -->
+        </div>
+    </section>
+
+    <section class="profiles-list-section">
+        <div class="container">
+            <h2 class="section-heading">Nos Profils Mis en Avant</h2>
+            <div class="profiles-grid">
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Fatou Dia" class="profile-avatar-list">
+                    <h3>Fatou Dia</h3>
+                    <p class="profile-domain">Développement Web Fullstack</p>
+                    <div class="profile-skills">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Django</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Alioune Fall" class="profile-avatar-list">
+                    <h3>Alioune Fall</h3>
+                    <p class="profile-domain">Marketing Digital & SEO</p>
+                    <div class="profile-skills">
+                        <span>SEO</span>
+                        <span>SEM</span>
+                        <span>Content Marketing</span>
+                        <span>Google Analytics</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Aïcha Sow" class="profile-avatar-list">
+                    <h3>Aïcha Sow</h3>
+                    <p class="profile-domain">Data Science & Machine Learning</p>
+                    <div class="profile-skills">
+                        <span>Python</span>
+                        <span>R</span>
+                        <span>SQL</span>
+                        <span>Machine Learning</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Moussa Camara" class="profile-avatar-list">
+                    <h3>Moussa Camara</h3>
+                    <p class="profile-domain">Design UI/UX</p>
+                    <div class="profile-skills">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Khadija Mbaye" class="profile-avatar-list">
+                    <h3>Khadija Mbaye</h3>
+                    <p class="profile-domain">Gestion de Projet IT</p>
+                    <div class="profile-skills">
+                        <span>Scrum</span>
+                        <span>Agile</span>
+                        <span>Jira</span>
+                        <span>Communication</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="profile-card">
+                    <img src="images/profil1.jpg" alt="Photo de profil de Malick Ba" class="profile-avatar-list">
+                    <h3>Malick Ba</h3>
+                    <p class="profile-domain">Cybersécurité</p>
+                    <div class="profile-skills">
+                        <span>Pentesting</span>
+                        <span>Analyse de Vulnérabilités</span>
+                        <span>Réseaux</span>
+                        <span>Linux</span>
+                    </div>
+                    <a href="profil-detail.html" class="btn btn-sm btn-primary">Voir le profil <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SystemXëy.sn</h3>
+                    <p>La passerelle entre l'éducation et l'emploi au Sénégal.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="etudiants.html">Espace Étudiants</a></li>
+                        <li><a href="recruteurs.html">Espace Recruteurs</a></li>
+                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SystemXëy.sn. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
